@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    background-color: #eceff1;
+}
+
+* {
+    font-family: "Poppins";
+    color: #000;
+    box-sizing: border-box;
+}
+
+h1,
+p{
+    color: rgb(73, 73, 73);
+}
+
+.my-calculator {
+    padding: 0.6em 1em 1em 1em;
+    margin-left: 16px
+}
+
+.my-calculator p {
+    font-weight: normal;
+    font-size: 26px;
+    color: #9127e1;
+}
+
+.calculator-wrapper {
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 2em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: fit-content;
+    width: 40%;
+}
+
+.display-number-wrapper {
+    display: flex;
+    margin-top: 20px;
+    justify-content: right;
+}
+
+.display-number {
+    color: rgb(177, 174, 174);
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.equal-to-wrapper {
+    display: flex;
+    margin-top: 10px;
+    justify-content: right;
+    align-items: center;
+}
+
+.equal-to {
+    font-size: 30px;
+    color: rgb(212, 212, 212);
+    margin-right: 10px;
+}
+
+.result {
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+    width: 100%;
+    border: none;
+    text-align: right;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 16px;
+    justify-content: space-between;
+}
+
+
+#divide {
+    background-color: #e5daec;
+    padding: 1.4em;
+    border-radius: 40px;
+    border: none;
+    color: #4a2167;
+    box-shadow: rgba(80, 78, 78, 0.16) 0px 1px 4px;
+    font-size: 16px;
+}
+
+
+#modulus {
+    background-color: #e5daec;
+    padding: 1.4em;
+    border-radius: 40px;
+    border: none;
+    color: #4a2167;
+    box-shadow: rgba(80, 78, 78, 0.16) 0px 1px 4px;
+    font-size: 16px;
+}
+
+#mul {
+    background-color: #e5daec;
+    padding: 1.4em;
+    border-radius: 40px;
+    border: none;
+    color: #4a2167;
+    box-shadow: rgba(80, 78, 78, 0.16) 0px 1px 4px;
+    font-size: 16px;
+}
+
+#add {
+    background-color: #e5daec;
+    padding: 1.4em;
+    border-radius: 40px;
+    border: none;
+    color: #4a2167;
+    box-shadow: rgba(80, 78, 78, 0.16) 0px 1px 4px;
+    font-size: 16px;
+}
+
+.section-three,
+.section-four,
+.section-five {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 16px;
+    justify-content: space-between;
+}
+
+.digit {
+    background-color: #f3f4f6;
+    padding: 1.4em;
+    border-radius: 40px;
+    border: none;
+    color: #4a2167;
+    box-shadow: rgba(80, 78, 78, 0.16) 0px 1px 4px;
+    font-size: 16px;
+}
+
+#cancel {
+    background-color: #fdba2e;
+    padding: 1.4em;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(80, 78, 78, 0.16) 0px 1px 4px;
+    font-size: 16px;
+}
+
+#minus {
+    background-color: #e5daec;
+    padding: 1.4em;
+    border-radius: 40px;
+    border: none;
+    color: #4a2167;
+    box-shadow: rgba(80, 78, 78, 0.16) 0px 1px 4px;
+    font-size: 16px;
+}
+
+#equal {
+    background-color: #8c27db;
+    padding: 1.4em;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(80, 78, 78, 0.16) 0px 1px 4px;
+    font-size: 16px;
+}
+
+.section-six {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 16px;
+    justify-content: space-between;
+}
+
+.dot,
+.zero,
+#del,
+#clear,
+.double-zero {
+    background-color: #e5daec;
+    padding: 1.4em;
+    border-radius: 40px;
+    border: none;
+    color: #4a2167;
+    box-shadow: rgba(80, 78, 78, 0.16) 0px 1px 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    font-size: 12px;
+    background-color: khaki;
+}
+
+#clear:hover {
+    font-size: 12px;
+    background-color: peachpuff;
+}
+
+#modulus:hover {
+    font-size: 12px;
+    background-color: peachpuff;
+}
+
+#divide:hover {
+    font-size: 12px;
+    background-color: peachpuff;
+}
+
+#mul:hover {
+    font-size: 12px;
+    background-color: peachpuff;
+}
+
+#minus:hover {
+    font-size: 12px;
+    background-color: peachpuff;
+}
+
+#add:hover {
+    font-size: 12px;
+    background-color: peachpuff;
+}
+
+#del:hover {
+    font-size: 12px;
+    background-color: peachpuff;
+}
+
+#equal:hover {
+    font-size: 12px;
+    background-color: peachpuff;
+    color: #4a2167;
+}
+
+@media screen and  (max-width: 770px) {
+    .calculator-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+        width: 90%;
+    }
+
+    .dot,
+    .digit
+    {
+        padding: 0.8em;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+    .operator {
+        padding: 0.4em;
+    }
+}

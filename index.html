@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <main>
+
+        <div class="container calculator-wrapper">
+            <div class="row">
+
+                <div class="my-calculator">
+                    <p>My Calculator</p>
+                </div>
+                <div class="display-number-wrapper">
+                    <span class="display-num me-3"></span>
+                    <!-- <span class="display-operand"></span>
+                    <span class="display-num2 ms-3"></span> -->
+                </div>
+                <div class="equal-to-wrapper">
+                    <span class="equal-to"> = </span>
+                    <input type="text" class="result" disabled/>
+                </div>
+
+                <div class="sections">
+
+                    <div class="section-two">
+
+                        <div class="cancel-wrapper">
+                            <button class="" id="clear" value="c"> C </button>
+                        </div>
+                       
+                        <div class="divide-wrapper">
+                            <button class="operator" id="divide" value="/"> ÷ </button>
+                        </div>
+                    
+                        <div class="modulus-wrapper">
+                            <button class="operator" id="modulus" value="%"> % </button>
+                        </div>
+                        
+                        <div class="mul-wrapper">
+                            <button class="operator" id="mul" value="*"> × </button>
+                        </div>
+                       
+                    </div>
+
+                    <div class="section-three">
+
+                        <div class="seven-wrapper">
+                            <button class="digit" value="7"> 7 </button>
+                        </div>
+                    
+                        <div class="eight-wrapper">
+                            <button class="digit" value="8"> 8 </button>
+                        </div>
+                        
+                        <div class="nine-wrapper">
+                            <button class="digit" value="9"> 9 </button>
+                        </div>
+                        
+                        <div class="minus-wrapper">
+                            <button class="operator" id="minus" value="-"> - </button>
+                        </div>
+
+                    </div>
+
+                    <div class="section-four">
+                        <div class="four-wrapper">
+                            <button class="digit" value="4"> 4 </button>
+                        </div>
+                    
+                        <div class="five-wrapper">
+                            <button class="digit" value="5"> 5 </button>
+                        </div>
+                        
+                        <div class="six-wrapper">
+                            <button class="digit" value="6"> 6 </button>
+                        </div>
+                        
+                        <div class="add-wrapper">
+                            <button class="operator" id="add" value="+"> + </button>
+                        </div>
+                        
+                    </div>
+                    <div class="section-five">
+                        <div class="one-wrapper">
+                            <button class="digit" id="one" value="1"> 1 </button>
+                        </div>
+                    
+                        <div class="two-wrapper">
+                            <button class="digit" id="two" value="2"> 2 </button>
+                        </div>
+                        
+                        <div class="three-wrapper">
+                            <button class="digit" value="3"> 3 </button>
+                        </div>
+
+                        <div class="equal-wrapper">
+                            <button class="operator" id="equal" value="="> = </button>
+                        </div>
+
+                    </div>
+                    <div class="section-six">
+                        <div class="dot-wrapper">
+                            <button class="digit" value="."> . </button>
+                        </div>
+
+                        <div class="zero-wrapper">
+                            <button class="digit" value="0"> 0 </button>
+                        </div>
+
+                        <div class="double-zero-wrapper">
+                            <button class="digit" value="00"> 00 </button>
+                        </div>
+
+                        <div class="del-wrapper">
+                            <button class="operator" id="del" value="del"> <img src="./icons/backspace.png" alt="del" width="14" height="14"> </button>
+                        </div>
+
+                    </div>
+                    <div></div>
+
+                </div>
+
+                
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
